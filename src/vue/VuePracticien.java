@@ -8,12 +8,12 @@ package vue;
  *
  * @author btssio
  */
-public class FichePracticien extends javax.swing.JPanel {
+public class VuePracticien extends javax.swing.JPanel {
 
     /**
-     * Creates new form FichePracticien
+     * Creates new form VuePracticien
      */
-    public FichePracticien() {
+    public VuePracticien() {
         initComponents();
     }
 

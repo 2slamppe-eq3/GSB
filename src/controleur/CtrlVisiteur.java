@@ -5,7 +5,7 @@ import java.util.List;
 import javax.swing.JOptionPane;
 import modele.dao.*;
 import modele.metier.*;
-import vue.VuePresence;
+import vue.VueVisiteur;
 
 /**
  * Contrôleur de la fenêtre VuePresence
@@ -13,16 +13,16 @@ import vue.VuePresence;
  * @author nbourgeois
  * @version 1 20 novembre 2013
  */
-public class CtrlPresence extends CtrlAbstrait {
+public class CtrlVisiteur extends CtrlAbstrait {
     
    private DaoPresence daoPresence = new DaoPresence();
    private DaoEquipier daoEquipier = new DaoEquipier();
    private DaoCodeEtat daoCodeEtat= new DaoCodeEtat();
 
 
-    public CtrlPresence(CtrlPrincipal ctrlPrincipal) {
+    public CtrlVisiteur(CtrlPrincipal ctrlPrincipal) {
         super(ctrlPrincipal);
-        vue = new VuePresence(this);
+        vue = new VueVisiteur(this);
         actualiser();
     }
 
@@ -155,8 +155,8 @@ public class CtrlPresence extends CtrlAbstrait {
     }
 
     @Override
-    public VuePresence getVue() {
-        return (VuePresence) vue;
+    public VueVisiteur getVue() {
+        return (VueVisiteur) vue;
     }
     
 }

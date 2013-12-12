@@ -12,7 +12,7 @@ import modele.jdbc.Jdbc;
  */
 public class CtrlPrincipal {
 
-    private CtrlPresence ctrlPresence = null;
+    private CtrlVisiteur ctrlPresence = null;
     private CtrlMenu ctrlMenu = null;
 
     /**
@@ -60,7 +60,7 @@ public class CtrlPrincipal {
      */
     private void menuPresenceAjouter() {
         if (ctrlPresence == null) {
-            ctrlPresence = new CtrlPresence(this);
+            ctrlPresence = new CtrlVisiteur(this);
         } else {
             // si la le contrôleur et sa vue existent déjà
             // il faut rafraîchir le contenu à partir de la base de données

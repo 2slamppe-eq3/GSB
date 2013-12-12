@@ -4,18 +4,33 @@
  */
 package vue;
 
+import controleur.CtrlAbstrait;
+import javax.swing.DefaultComboBoxModel;
+
 /**
  *
  * @author btssio
  */
-public class FicheVisiteur extends javax.swing.JPanel {
+public class VueVisiteur extends javax.swing.JPanel {
 
     /**
      * Creates new form FicheVisiteur
      */
-    public FicheVisiteur() {
+    public VueVisiteur(CtrlAbstrait ctrl) {
+        //super(ctrl);
         initComponents();
+        this.setLocation(700, 300);
+        /*modeleJComboBoxEquipier= new DefaultComboBoxModel();
+        modeleJComboBoxEtatPresence= new DefaultComboBoxModel();
+        jComboBoxEquipier.setModel(modeleJComboBoxEquipier);
+        jComboBoxEtatPresence.setModel(modeleJComboBoxEtatPresence);*/
     }
+    
+    
+   
+        
+        
+        
 
     /**
      * This method is called from within the constructor to initialize the form.

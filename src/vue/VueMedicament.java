@@ -8,12 +8,12 @@ package vue;
  *
  * @author btssio
  */
-public class FicheMedicament extends javax.swing.JPanel {
+public class VueMedicament extends javax.swing.JPanel {
 
     /**
-     * Creates new form FicheMedicament
+     * Creates new form VueMedicament
      */
-    public FicheMedicament() {
+    public VueMedicament() {
         initComponents();
     }
 

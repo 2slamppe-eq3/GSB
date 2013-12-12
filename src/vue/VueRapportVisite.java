@@ -8,12 +8,12 @@ package vue;
  *
  * @author btssio
  */
-public class FicheRapportVisite extends javax.swing.JPanel {
+public class VueRapportVisite extends javax.swing.JPanel {
 
     /**
-     * Creates new form FicheRapportVisite
+     * Creates new form VueRapportVisite
      */
-    public FicheRapportVisite() {
+    public VueRapportVisite() {
         initComponents();
     }
 
